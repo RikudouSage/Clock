@@ -1,0 +1,27 @@
+{
+    "name": "rikudou/clock",
+    "description": "Simple DI clock implementation",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Chrastecky",
+            "email": "dominik@chrastecky.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rikudou\\Clock\\": "src/"
+        }
+    },
+    "scripts": {
+        "fixer": "php-cs-fixer fix src --verbose"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    }
+}
