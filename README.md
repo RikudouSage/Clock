@@ -1,7 +1,7 @@
 Simple library I wrote because I'm tired of writing it all
 the time for each project where I need current time.
 
-Feel free to use it.
+Can be used with symfony via [rikudou/clock-bundle](https://packagist.org/packages/rikudou/clock-bundle).
 
 ## Installation
 
